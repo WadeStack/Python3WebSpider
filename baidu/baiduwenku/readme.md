@@ -7,5 +7,5 @@
 
   
 # 打包成了exe
-  链接：https://pan.baidu.com/s/1gbdt4MU8Di2Kevpy7h-Iww 
-  提取码：sh9n
+  链接：https://pan.baidu.com/s/1OPnGtql2NDkDqEUflDKuNg 
+  提取码：dz6b
