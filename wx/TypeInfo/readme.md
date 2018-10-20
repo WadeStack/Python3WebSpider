@@ -37,7 +37,7 @@ friends = bot.friends()
 这次我只分析了前面的name,sex,province,city,signature
 
 3. 数据分析
-    3.1 总体分析
+- 3.1 总体分析
 	
 
 ```
@@ -46,8 +46,7 @@ def analyseTotal(friends):
     result = friends.stats_text()
     print(result)
 ```
-
-   3.2 具体分析
+- 3.2 具体分析
 ```
 def analyseConcrete(friends):
     text = friends.stats()
@@ -57,7 +56,7 @@ def analyseConcrete(friends):
     for friend in friends[1:]:
         print(friend.name,friend.sex,friend.province,friend.city,friend.signature)
 ```
-   3.3 对性别分析
+- 3.3 对性别分析
 ```
 # 性别分析,饼状图显示
 def analyseSex(friends):
@@ -76,8 +75,7 @@ def analyseSex(friends):
 
     plt.show()
 ```
- 
-   3.4 对签名进行分析
+- 3.4 对签名进行分析
 ```
 # 分析个性签名
 def analyseSignature(friends):
